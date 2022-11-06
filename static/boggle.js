@@ -7,7 +7,7 @@ class BoggleGame {
   
       this.score = 0;
       this.words = new Set();
-      this.board = $("#" + boggle);// "#" if for id 
+      this.board = $("#" + boggle);// "#" is for id 
   
       // every 1000 msec, "tick"
       this.timer = setInterval(this.tick.bind(this), 1000);
